@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.fondo{
+    background-image: url(/img/real/fondo1.jpg);
+    background-size: cover;
+}
+.fondo2{
+    background-color: rgb(24, 22, 22);
+    background-image: url(/img/gout-logo-fondo.png);
+    background-size: cover;
+    opacity: 85%;
+}
+.fondo3{
+    background-color: rgb(24, 22, 22);
+    background-image: url(/img/gout-logo-fondo.png);
+    background-size: contain;
+}
+.fondo4{
+    background-color: rgb(255, 255, 255);
+    background-image: url(/img/gout-logo-fondo.png);
+    background-size: contain;
+}
+.fondo5{
+    background-color: rgb(24, 22, 22);
+    background-image: url(/img/gout-logo-fondo.png);
+    background-size: cover;
+}
+.createCommerce{
+    background-color: rgb(24, 22, 22);
+    background-image: url(/img/real/fonoclaro.jpg);
+    background-size: cover;
+}
+.createCommerce2{
+    background-color: rgb(24, 22, 22);
+    background-image: url(/img/real/fondooscuro.jpg);
+    background-size: cover;
+}
+.boxCommerce{
+    background-color: #dc3545;
+    opacity: 75%;
+    border-radius: 4px;
+}
+
+.shadow{
+    box-shadow: 4px 4px 4px 8px rgba(0, 0, 0, 0.9);
+}
+.border-right{
+    border-right: 1px solid rgb(153, 148, 148);
+}
+
+.border-b{
+    border-bottom: 1px solid rgb(233, 223, 223);
+    transition: 0.5s;
+}
+.border-b:hover{
+    background-color: #dc3545;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+.img-commerce{
+    height: 100%;
+    width: 100%;
+}
+.non{
+    background-color: white;
+    border: 0;
+    border-radius: 0%;
+    border-bottom: 1px solid rgb(196, 184, 184);
+}
+.border-left{
+    border-left: 1px solid rgb(153, 148, 148);
+}
+form:hover{
+    opacity: 100%;
+    transition: 0.8s;
+}
+
+form{
+    opacity: 90%;
+    transition: 0.8s;
+}
+
+
+
+hr{
+    background-color: rgba(248, 248, 255, 0.856);
+}
+
+.negro{
+    background-color: rgb(19, 17, 17);
+}
+
+.card-color{
+    color: red;
+}
+
+.fa-facebook-square{
+    color: rgb(0, 110, 255);
+}
+
+.fa-instagram{
+    color: hotpink;
+}
+
+.fa-twitter{
+    color: rgb(95, 195, 228);
+}
+
+.fa-edit{
+    color: rgb(95, 93, 88);
+}
